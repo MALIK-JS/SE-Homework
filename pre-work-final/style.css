@@ -145,10 +145,29 @@ th, td {
  }
  
  .row1 {
-	 margin: 20px;
+	 margin: 60px;
  }
 
+ .row1 p{
+	 margin-bottom: 50px;
+ }
+.text h2{
+	margin-top: 50px;
+}
 
+.netflix-img{
+	width: 200px;
+	height: 100px;
+	margin: 30px;
+}
+.last-paragra{
+	text-align: center;
+}
 
-
-
+.last-paragra{
+	font-size: 20px;
+}
+.last-paragra span{
+	color: red;
+	text-decoration: underline;
+}
