@@ -17,8 +17,13 @@ nav .max-width{
     align-items: center;
     justify-content: space-between;
 }
+h1, h2, h3{
+	color: blue;
+}
 
 nav{
+	position:fixed;
+	top: 0%;
     width: 100%;
     background-color: #ffffff;
     line-height: 5vh;
@@ -43,10 +48,19 @@ nav .logo span{
     padding: 1vw;
 }
 
+
 .nav-bar li a{
     text-decoration: none;
     color: black;
+	padding: 10px;
 }
+
+.nav-bar li a:hover{
+	
+	border: 1px solid blue; 
+	color: blue;
+}
+
 .home{
     display: flex;
     height: 75vh;
@@ -151,8 +165,9 @@ th, td {
  .row1 p{
 	 margin-bottom: 50px;
  }
-.text h2{
-	margin-top: 50px;
+ 
+ .story-container{
+	margin-top: 100px;
 }
 
 .netflix-img{
