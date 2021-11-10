@@ -49,7 +49,7 @@ nav .logo span{
 }
 .home{
     display: flex;
-    height: 100vh;
+    height: 75vh;
     min-height: 400px;
 }
 section .max-width{
@@ -63,3 +63,92 @@ section .max-width{
     object-fit:cover;
     margin-right: 30px;
 }
+.centerit{
+	display: table;
+	margin: 0 auto;
+}
+#services .services {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+#services .service-top {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+#services .service-top {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.table{
+	margin: 50px auto;
+}
+th, td {
+	width:150px;
+	text-align:center;
+	border:1px solid black;
+	padding:5px
+  
+}
+.row {
+	border-right:hidden;
+}
+
+#contact .contact-items {
+	width: 50%;
+}
+
+.contact-box { 
+	flex-direction: column;
+	max-width: 1500px;
+	margin: 30px auto;
+	width: 100%;
+    text-align: center;
+    padding: 50px 0;
+	width: 500px; 
+	box-shadow: 0 0 20px 0 #999;
+}
+
+.form{
+	margin: 35px;
+}
+
+.field_inpt{
+
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #777;
+	border-radius: 14px;
+	outline: none;
+}
+
+.btn{
+	border-radius: 22px;
+	color: #fff;
+	margin-top: 16px;
+	padding: 10px;
+	background-color:blue ;
+	border: none;
+	cursor: pointer;
+}
+
+.menu {
+	display:flex;
+
+ }
+ 
+ .row1 {
+	 margin: 20px;
+ }
+
+
+
+
+
